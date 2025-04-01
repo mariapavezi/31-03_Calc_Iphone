@@ -26,11 +26,11 @@ function apagarUltimo() {
 
 function paraNegativo() {
     let display = document.getElementById('Display-calculadora');
-    display.value = ((display.value)*-1);
+    display.value = (parseFloat(display.value)*-1);
 }
 
 function porCento() {
     let display = document.getElementById('Display-calculadora');
-    display.value = ((display.value)/100);
+    display.value = (parseFloat(display.value)/100);
 }
 
